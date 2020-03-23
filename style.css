@@ -10,12 +10,11 @@ header {
 
 img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   width: 50%;
 }
 
-header a {
+nav a {
   background: grey;
   padding: 0px 10px;
 }
@@ -27,10 +26,13 @@ figcaption {
 
 #featured-property p {
   width: 800px;
+  margin: 0 auto;
   text-align: center;
 }
 
-#details {
-  display: block;
-  
+#details div {
+  float: left;
+  width: 25%;
+  background: red;
+  text-align: center;
 }
