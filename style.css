@@ -1,5 +1,34 @@
+
+
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
 }
+
+a.property-links{
+text-align: center;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+p#featured-property{
+  margin: auto;;
+  width: 800px;
+}
+
+
+#details{
+  display: block;
+}
+
+#details div{
+  display: block;
+  width: 25%;
+  float: left;
+  background-color: red;
+
+}
+
+*{text-align: center;}
